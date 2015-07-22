@@ -1,0 +1,24 @@
+{
+  "name": "cbit",
+  "version": "1.0.0",
+  "description": "A Cbit class (short for \"computational bit\") for encapsulating a potential computation, the result of which can be considered either \"rejected\" or \"resolved\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhintz/cbit.git"
+  },
+  "keywords": [
+    "monad",
+    "cbit",
+    "task"
+  ],
+  "author": "Mark Hintz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mhintz/cbit/issues"
+  },
+  "homepage": "https://github.com/mhintz/cbit#readme"
+}
