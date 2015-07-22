@@ -1,6 +1,6 @@
 {
   "name": "cbit",
-  "version": "1.0.1",
+  "version": "1.1.1",
   "description": "A Cbit class (short for \"computational bit\") for encapsulating a potential computation, the result of which can be considered either \"rejected\" or \"resolved\"",
   "main": "index.js",
   "scripts": {

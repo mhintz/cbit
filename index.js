@@ -19,6 +19,10 @@ function Cbit(computation) {
   this.run = computation
 }
 
+Cbit.prototype.fork = function(reject, resolve) {
+  return this.run(reject, resolve)
+}
+
 Cbit.prototype.resolved = function(resVal) {
   return new Cbit(function(_, resolve) {
     return resolve(resVal)
